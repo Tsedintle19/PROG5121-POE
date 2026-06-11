@@ -113,6 +113,8 @@ public class RegistrationAndLogin {
    if (myObject.loginUser(loginUsername,loginPassword))
    {
    System.out.println("Welcome to QuickChat.");
+   //part 3
+   TaskReport.readStoredMessages();
    //an object of the SendingMessages class is created.
    SendingMessages myObj=new SendingMessages("","");
    do{
@@ -124,14 +126,14 @@ public class RegistrationAndLogin {
      int counter = 0;
      
     while (counter < numMessages) {
-         myObj =new SendingMessages(recipient,messageLength);
+        
         System.out.println("Please enter recipient number:");
         recipient = myInput.nextLine();
         myObj.checkRecipientCell();
         System.out.println("Please enter the message you want to send.");
         messageLength  = myInput.nextLine();
         myObj.checkMessageID(); 
-       
+        myObj =new SendingMessages(recipient,messageLength);
        //The program then checks the message length.
         if(messageLength.length()<=250)
         {
@@ -147,11 +149,13 @@ public class RegistrationAndLogin {
    }
      System.out.println("Choose one of the following features");
      String option1="Send Messages";
-     String option2="Coming Soon";
-     String option3="Quit";          
+     String option2="Stored";
+     String option3="Disregard"; 
+     String option4="FourthMenu";
      System.out.println("1) " + option1 );
      System.out.println("2) " + option2);
      System.out.println("3) " + option3);
+     System.out.println("4) " + option4);
      option=Integer.parseInt(myInput.nextLine());
       
      switch(option)
@@ -160,20 +164,83 @@ public class RegistrationAndLogin {
         System.out.println(myObj.sentMessage(option));
            
         break;
-
+//part 3 menu option
     case 2:
-        System.out.println("Coming Soon.");
+        System.out.println(myObj.sentMessage(option));
         break;
-
     case 3:
-        System.out.println("Quit");
+        System.out.println(myObj.sentMessage(option));
         break;
 
+    case 4:
+        
+         System.out.println("\nMESSAGE REPORT MENU");
+        System.out.println("1. Display Sender and Recipient");
+        System.out.println("2. Display Longest Message");
+        System.out.println("3. Search Message ID");
+        System.out.println("4. Search Recipient");
+        System.out.println("5. Delete Message");
+        System.out.println("6. Display Full Report");
+
+        int Option =Integer.parseInt(myInput.nextLine());
+
+        switch(Option)
+        {
+            case 1:
+                TaskReport.presentStoredMessages();
+                break;
+
+            case 2:
+                System.out.println(TaskReport.displayLongestMessage());
+                break;
+
+            case 3:
+
+                System.out.println("Enter Message ID:");
+
+                String id = myInput.nextLine();
+
+                System.out.println( TaskReport.searchMessageID(id));
+
+                break;
+
+            case 4:
+
+                System.out.println("Enter Recipient Number:");
+
+                String recipientSearch =myInput.nextLine();
+
+                System.out.println( TaskReport.searchMessages(recipientSearch));
+
+                break;
+
+            case 5:
+
+                System.out.println("Enter Message Hash:");
+
+                String hash = myInput.nextLine();
+
+                System.out.println(TaskReport.deleteMessage(hash));
+
+                break;
+
+            case 6:
+                
+                System.out.println(TaskReport.displayReport());
+
+                break;
+
+            default:
+
+                System.out.println( "Invalid Option");
+        }
+
+        break;
     default:
         System.out.println("Invalid option");
 }
   }
-   while (option != 3);
+   while (option != 4);
  System.out.println("The total messages sent are: " + SendingMessages.returnTotalMessages());
            
      //Displsy the messages

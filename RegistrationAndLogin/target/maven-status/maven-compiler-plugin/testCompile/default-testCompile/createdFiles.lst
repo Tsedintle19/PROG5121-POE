@@ -1,3 +1,4 @@
-com\mycompany\registrationandlogin\LoginTest.class
 com\mycompany\registrationandlogin\RegistrationAndLoginTest.class
+com\mycompany\registrationandlogin\LoginTest.class
 com\mycompany\registrationandlogin\SendingMessagesTest.class
+com\mycompany\registrationandlogin\TaskReportTest.class

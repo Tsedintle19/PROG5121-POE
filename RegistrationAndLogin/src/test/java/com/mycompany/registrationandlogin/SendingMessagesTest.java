@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
- * @author setlh
+ * @author setlhabe Tsedintle
  */
 public class SendingMessagesTest {
     

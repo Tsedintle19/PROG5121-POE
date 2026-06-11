@@ -63,3 +63,375 @@
 "Recipient":"+27718693002",
 "Message":"Hi Mike, can you join us for dinner tonight?"
 }
+{
+"MessageID":"7880896231",
+"Recipient":"+27718693002",
+"Message":"Hi Mike, can you join us for dinner tonight?"
+}
+{
+"MessageID":"7293799693",
+"Recipient":"",
+"Message":""
+}
+{
+"MessageID":"6137579175",
+"Recipient":"",
+"Message":""
+}
+{
+"MessageID":"8452368072",
+"Recipient":"+27834557896",
+"Message":"Did you get the cake?"
+}
+{
+"MessageID":"8660110265",
+"Recipient":"+27838884567",
+"Message":"Where are you?You are late! I have asked you to be on time."
+}
+{
+"MessageID":"1683560532",
+"Recipient":"+27834484567",
+"Message":"Yohoooo, I am at your gate."
+}
+{
+"MessageID":"6813426069",
+"Recipient":"0838884567",
+"Message":"It is dinner time !"
+}
+{
+"MessageID":"4142925348",
+"Recipient":"",
+"Message":""
+}
+{
+"MessageID":"8894017782",
+"Recipient":"",
+"Message":""
+}
+{
+"MessageID":"3405518418",
+"Recipient":"+27838884567",
+"Message":"Ok, I am leaving without you."
+}
+{
+"MessageID":"0511868642",
+"Recipient":"",
+"Message":""
+"MessageHash":"05:0:"
+}
+{
+"MessageID":"8546677433",
+"Recipient":"+27834557896",
+"Message":"Did you get the cake?"
+"MessageHash":"85:1:DIDCAKE?"
+}
+{
+"MessageID":"2965012461",
+"Recipient":"+27838884567",
+"Message":"Where are you?You are late! I have asked you to be on time."
+"MessageHash":"29:2:WHERETIME."
+}
+{
+"MessageID":"6261648437",
+"Recipient":"",
+"Message":""
+"MessageHash":"62:0:"
+}
+{
+"MessageID":"1624303347",
+"Recipient":"+27834484567",
+"Message":"Yohoooo, I am at your gate."
+"MessageHash":"16:1:YOHOOOO,GATE."
+}
+{
+"MessageID":"6331769131",
+"Recipient":"0838884567",
+"Message":"It is dinner time."
+"MessageHash":"63:2:ITTIME."
+}
+{
+"MessageID":"1032764717",
+"Recipient":"+27838884567",
+"Message":"Ok,I am leaving without you."
+"MessageHash":"10:3:OK,IYOU."
+}
+{
+"MessageID":"4177096849",
+"Recipient":"",
+"Message":""
+"MessageHash":"41:0:"
+"Flag":"Sent"
+}
+{
+"MessageID":"7054450757",
+"Recipient":"+27834557896",
+"Message":"Did you get the cake?"
+"MessageHash":"70:1:DIDCAKE?"
+"Flag":"Sent"
+}
+{
+"MessageID":"4433767174",
+"Recipient":"+27838884567",
+"Message":"Where are you?You are late! I have asked you to be on time."
+"MessageHash":"44:2:WHERETIME."
+"Flag":"Sent"
+}
+{
+"MessageID":"9680139123",
+"Recipient":"+27834484567",
+"Message":"Yohoooo,I am at your gate."
+"MessageHash":"96:3:YOHOOOO,IGATE."
+"Flag":"Sent"
+}
+{
+"MessageID":"6534500628",
+"Recipient":"0838884567",
+"Message":"It is dinner time."
+"MessageHash":"65:4:ITTIME."
+"Flag":"Sent"
+}
+{
+"MessageID":"5660948771",
+"Recipient":"",
+"Message":""
+"MessageHash":"56:0:"
+"Flag":"Sent"
+}
+{
+"MessageID":"9672485301",
+"Recipient":"",
+"Message":""
+"MessageHash":"96:0:"
+"Flag":"Sent"
+}
+{
+"MessageID":"1982143992",
+"Recipient":"",
+"Message":""
+"MessageHash":"19:0:"
+"Flag":"Sent"
+}
+{
+"MessageID":"5710722669",
+"Recipient":"+27834484567",
+"Message":"Yohoooo,I am at your gate."
+"MessageHash":"57:1:YOHOOOO,IGATE."
+"Flag":"Sent"
+}
+{
+"MessageID":"5581651693",
+"Recipient":"+27834557896",
+"Message":"Did you get the cake?",
+"MessageHash":"55:0:DIDCAKE?",
+"Flag":"Sent"
+}
+{
+"MessageID":"0482855333",
+"Recipient":"+27834557896",
+"Message":"Did you get the cake?",
+"MessageHash":"04:0:DIDCAKE?",
+"Flag":"Sent"
+}
+{
+"MessageID":"7364265441",
+"Recipient":"0838884567",
+"Message":"It is dinner time.",
+"MessageHash":"73:1:ITTIME.",
+"Flag":"Sent"
+}
+{
+"MessageID":"7578644144",
+"Recipient":"+27834557896",
+"Message":"Did you get the cake?",
+"MessageHash":"75:0:DIDCAKE?",
+"Flag":"Sent"
+}
+{
+"MessageID":"0067835893",
+"Recipient":"0838884567",
+"Message":"It is dinner time.",
+"MessageHash":"00:1:ITTIME.",
+"Flag":"Sent"
+}
+{
+"MessageID":"4362518934",
+"Recipient":"+27834557896",
+"Message":"Did you get the cake?",
+"MessageHash":"43:0:DIDCAKE?",
+"Flag":"Sent"
+}
+{
+"MessageID":"8714585911",
+"Recipient":"+27838884567",
+"Message":"Where are you?You are late! I have asked you to be on time.",
+"MessageHash":"87:1:WHERETIME.",
+"Flag":"Disregard"
+}
+{
+"MessageID":"6250029135",
+"Recipient":"+27834484567",
+"Message":"Yohoooo,I am at your gate.",
+"MessageHash":"62:1:YOHOOOO,IGATE.",
+"Flag":"Stored"
+}
+{
+"MessageID":"8044872834",
+"Recipient":"0838884567",
+"Message":"It is dinner time.",
+"MessageHash":"80:1:ITTIME.",
+"Flag":"Sent"
+}
+{
+"MessageID":"8074002955",
+"Recipient":"+27838884567",
+"Message":"Ok,I am leaving without you.",
+"MessageHash":"80:2:OK,IYOU.",
+"Flag":"Stored"
+}
+{
+"MessageID":"1736464065",
+"Recipient":"+27834557896",
+"Message":"Did you get the cake?",
+"MessageHash":"17:0:DIDCAKE?",
+"Flag":"Sent"
+}
+{
+"MessageID":"5229054218",
+"Recipient":"+27838884567",
+"Message":"Where are you?You are late! I have asked you to be on time.",
+"MessageHash":"52:1:WHERETIME.",
+"Flag":" Stored "
+}
+{
+"MessageID":"0680479693",
+"Recipient":"+27834484567",
+"Message":"Yohoooo,I am at your gate.",
+"MessageHash":"06:1:YOHOOOO,IGATE.",
+"Flag":"Disregard"
+}
+{
+"MessageID":"8706583495",
+"Recipient":"0838884567",
+"Message":"It is dinner time.",
+"MessageHash":"87:1:ITTIME.",
+"Flag":"Sent"
+}
+{
+"MessageID":"7880329336",
+"Recipient":"+27838884567",
+"Message":"Ok,I am leaving without you.",
+"MessageHash":"78:2:OK,IYOU.",
+"Flag":"Disregard"
+}
+{
+"MessageID":"0592318881",
+"Recipient":"+27834557896",
+"Message":"Did you get the cake?",
+"MessageHash":"05:0:DIDCAKE?",
+"Flag":"Sent"
+}
+{
+"MessageID":"2752884206",
+"Recipient":"+27838884567",
+"Message":"Where are you?You are late! I have asked you to be on time.",
+"MessageHash":"27:1:WHERETIME.",
+"Flag":" Stored "
+}
+{
+"MessageID":"2986441235",
+"Recipient":"+27834484567",
+"Message":"Yohoooo,I am at your gate.",
+"MessageHash":"29:1:YOHOOOO,IGATE.",
+"Flag":"Disregard"
+}
+{
+"MessageID":"4180414314",
+"Recipient":"0838884567",
+"Message":"It is dinner time.",
+"MessageHash":"41:1:ITTIME.",
+"Flag":"Sent"
+}
+{
+"MessageID":"4561201360",
+"Recipient":"+27838884567",
+"Message":"Ok,I am leaving without you.",
+"MessageHash":"45:2:OK,IYOU.",
+"Flag":" Stored "
+}
+{
+"MessageID":"4655541885",
+"Recipient":"+27834557896",
+"Message":"Did you get the cake?",
+"MessageHash":"46:0:DIDCAKE?",
+"Flag":"Sent"
+}
+{
+"MessageID":"2247607560",
+"Recipient":"+27838884567",
+"Message":"Where are you?You are late! I have asked you to be on time.",
+"MessageHash":"22:1:WHERETIME.",
+"Flag":" Stored "
+}
+{
+"MessageID":"8802749243",
+"Recipient":"+27834484567",
+"Message":"Yohoooo,I am at your gate.",
+"MessageHash":"88:1:YOHOOOO,IGATE.",
+"Flag":"Disregard"
+}
+{
+"MessageID":"9351675714",
+"Recipient":"0838884567",
+"Message":"It is dinner time.",
+"MessageHash":"93:1:ITTIME.",
+"Flag":"Sent"
+}
+{
+"MessageID":"8379805685",
+"Recipient":"+27838884567",
+"Message":"Ok,I am leaving without you.",
+"MessageHash":"83:2:OK,IYOU.",
+"Flag":" Stored "
+}
+{
+"MessageID":"8905174686",
+"Recipient":"+27718693002",
+"Message":"Hi Mike, can you join us for dinner tonight?",
+"MessageHash":"89:0:HITONIGHT?",
+"Flag":"Sent"
+}
+{
+"MessageID":"8905174686",
+"Recipient":"+27718693002",
+"Message":"Hi Mike, can you join us for dinner tonight?",
+"MessageHash":"89:0:HITONIGHT?",
+"Flag":" Stored "
+}
+{
+"MessageID":"8905174686",
+"Recipient":"+27718693002",
+"Message":"Hi Mike, can you join us for dinner tonight?",
+"MessageHash":"89:0:HITONIGHT?",
+"Flag":"Disregard"
+}
+{
+"MessageID":"3525087166",
+"Recipient":"+27718693002",
+"Message":"Hi Mike, can you join us for dinner tonight?",
+"MessageHash":"35:0:HITONIGHT?",
+"Flag":"Sent"
+}
+{
+"MessageID":"3525087166",
+"Recipient":"+27718693002",
+"Message":"Hi Mike, can you join us for dinner tonight?",
+"MessageHash":"35:0:HITONIGHT?",
+"Flag":" Stored "
+}
+{
+"MessageID":"3525087166",
+"Recipient":"+27718693002",
+"Message":"Hi Mike, can you join us for dinner tonight?",
+"MessageHash":"35:0:HITONIGHT?",
+"Flag":"Disregard"
+}

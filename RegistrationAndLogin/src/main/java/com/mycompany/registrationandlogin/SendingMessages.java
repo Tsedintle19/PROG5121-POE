@@ -20,7 +20,7 @@ public class SendingMessages {
     private String messageHash;
     private static int totalMessages = 0;
     private String option;
-    private static String[] sentMessages = new String[100];
+    private static String[] sentMessages=new String[100];
     
      //Constructor
     public SendingMessages(String recipient,String messageLength)
@@ -94,6 +94,7 @@ public class SendingMessages {
     
    }
     
+    
     //The sentMessage() method handles menu options.
    public String sentMessage(int option)
    {
@@ -102,15 +103,19 @@ public class SendingMessages {
 
         case 1:
             sentMessages[totalMessages] = messageLength;
+            
             totalMessages++;
-           storeMessage();
+            storeMessage("Sent");
 
             return "Message successfully sent";
 
         case 2:
+            storeMessage(" Stored ");
             return "Coming Soon.";
 
         case 3:
+            
+            storeMessage("Disregard");
             return "Quit";
 
         default:
@@ -119,9 +124,9 @@ public class SendingMessages {
       
    
    }
-   
-  
 
+   
+   
    public String printMessage()
    {
           String allMessages = "";
@@ -140,7 +145,7 @@ public class SendingMessages {
        return totalMessages;
    }
    
-   public void storeMessage()
+   public void storeMessage(String flag)
    {
      
     {
@@ -154,9 +159,14 @@ public class SendingMessages {
 
         writer.write("\"Recipient\":\""+ recipient + "\",\n");
 
-        writer.write("\"Message\":\""+ messageLength + "\"\n");
+        writer.write("\"Message\":\""+ messageLength + "\",\n");
 
-        writer.write("}\n");
+        writer.write("\"MessageHash\":\""+ messageHash + "\",\n");
+        
+        //part 3
+        writer.write("\"Flag\":\"" +flag + "\"\n");
+       
+         writer.write("}\n");
 
         writer.close();
 
@@ -191,5 +201,6 @@ public class SendingMessages {
         
     }
    
+ 
 }
 
